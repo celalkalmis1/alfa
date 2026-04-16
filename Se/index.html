@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <header class="page-header">
+            <h1>Erasmus & Engineering Portfolio</h1>
+            <p>Electrical and Electronics Engineering studies and travel notes.</p>
+        </header>
+
+        <section class="gallery-section">
+            <h2>Snapshots from European Travels</h2>
+            
+            <div class="slider-container">
+                <div class="slider">
+                    <img src="https://picsum.photos/id/1015/800/400" alt="Nature" class="slide">
+                    <img src="https://picsum.photos/id/1018/800/400" alt="City" class="slide">
+                    <img src="200.jpg" alt="Warsaw" class="slide">
+                </div>
+
+                <button class="nav-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="nav-btn next" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
