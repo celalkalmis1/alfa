@@ -1,3 +1,5 @@
-# alfa
-# alfa
-Prague, Vienna
+"#alfa"
+
+Se --> Software Engineering
+
+mpl --> Modern Programming Languages
