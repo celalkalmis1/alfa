@@ -61,7 +61,8 @@ body {
 
 .slide {
     min-width: 100%;
-    height: auto;
+    aspect-ratio: 16 / 9; /* Standart geniş ekran yatay resim oranı */
+    object-fit: cover; /* Resmi esnetmez, orana tam uydurur */
     display: block;
 }
 
