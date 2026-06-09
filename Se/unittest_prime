@@ -1,0 +1,35 @@
+import unittest
+
+def PrimeNumber(n):
+    if n < 2:
+        return False
+    
+    # 2'den başlayarak n'e kadar olan sayılara bölüyoruz
+    for i in range(2, n):
+        if n % i == 0:
+            # Eğer sayı herhangi bir i değerine tam bölünüyorsa asal değildir
+            return False
+            
+    # Eğer döngü biter ve hiçbir sayıya bölünmezse asaldır
+    return True
+
+class TestPrimeNumber(unittest.TestCase):
+
+    
+    def test_1(self):
+        self.assertEqual(PrimeNumber(1), False)
+    def test_2(self):
+        self.assertEqual(PrimeNumber(2), True)
+    def test_3(self):
+        self.assertEqual(PrimeNumber(3), True)
+    def test_4(self):
+        self.assertEqual(PrimeNumber(6), False)
+    def test_5(self):
+        self.assertEqual(PrimeNumber(117), False)
+    
+    
+        
+
+
+if __name__ == '__main__':
+    unittest.main()
