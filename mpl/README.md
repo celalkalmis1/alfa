@@ -1,8 +1,14 @@
 # MPL Python Exercises
 
-This repository contains my basic Python practice scripts.
+This repository contains my basic Python practice scripts and data visualization projects.
 
-## Files
+## Chart Applications
+
+* `gdp_analysis.py` - Plots side-by-side pie charts comparing the GDP distribution (agriculture, industry, services) of Turkey and Spain.
+* `sıcaklık.py` - Visualizes the 12-month temperature data for Istanbul, Athens, and Madrid using both bar and line charts.
+* `tourism_bar_chart.py` - Creates a bar chart showing the number of tourists (in millions) visiting France, Spain, Turkey, and Italy in 2025.
+
+## Basic Scripts
 
 * `Ascii_code.py` - Prints the ASCII values of specific Turkish characters.
 * `avarage.py` - Calculates the average of given numbers.
@@ -12,10 +18,10 @@ This repository contains my basic Python practice scripts.
 * `excercise_2.py` - Prints the running sum of numbers from 0 to 9.
 * `excersive_hoca.py` - Sorts a list of student names alphabetically.
 * `exercise_3.py` - Removes a specified number of characters from the start of a string.
-* `exercise_4.py` - Demonstrates swapping variable values (e.g., `a, b = b, a`).
+* `exercise_4.py` - Demonstrates swapping variable values (e.g., a, b = b, a).
 * `exercise_6.py` - Calculates the factorial of a number.
 * `exercise_7.py` - Demonstrates basic list operations using fruits.
-* `for_test.py` - A countdown `for` loop from 20 to 0 in steps of 5.
+* `for_test.py` - A countdown for loop from 20 to 0 in steps of 5.
 * `function_practice.py` - Basic functions for arithmetic and geometric area calculations.
 * `function.py` - A specific function to convert cm to feet and inches.
 * `kelime_sayıcı.py` - Counts the number of characters in a string.
