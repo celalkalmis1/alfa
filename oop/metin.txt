@@ -1,0 +1,30 @@
+(Ex 1.) Candidates that can not be enrolled (too few scores):
+Ela - 4 - Mathematics
+Fred - 5 - Informatics
+----------------------------------------
+(Ex 2.) Candidates enrolled to Infromatics:
+John - 11 - Informatics
+Ula - 10 - Informatics
+Zbych - 13 - Informatics
+----------------------------------------
+(Ex 3.) Average for all Candidates is 10. 
+----------------------------------------
+(Ex 4.) Candidates by faculties:
+Basia 	 14 	 Faculty: Medicine
+Zbych 	 13 	 Faculty: Informatics
+Ala 	 12 	 Faculty: Mathematics
+Rick 	 12 	 Faculty: Medicine
+John 	 11 	 Faculty: Informatics
+Anna 	 11 	 Faculty: Mathematics
+Ula 	 10 	 Faculty: Informatics
+Henek 	 10 	 Faculty: Mathematics
+Ola 	 9 	 Faculty: Informatics
+Beata 	 9 	 Faculty: Psychology
+Fred 	 5 	 Faculty: Informatics
+Ela 	 4 	 Faculty: Mathematics
+----------------------------------------
+(Ex 5.) Average for all faculties:
+Informatics 	  9,6
+Mathematics 	  9,25
+Medicine 	  13
+Psychology 	  9
