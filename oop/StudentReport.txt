@@ -1,0 +1,32 @@
+--- LINQ QUERIES REPORT ---
+Date Generated: 16.06.2026 00:07:13
+
+(Ex 1.) Candidates that can not be enrolled (Score < 10):
+User_6 - 6 - Architecture
+User_7 - 7 - Cloud Computing
+User_8 - 6 - Architecture
+User_9 - 6 - Engineering
+----------------------------------------
+(Ex 2.) Candidates enrolled in Engineering (Score >= 10):
+User_5 - 13 - Engineering
+----------------------------------------
+(Ex 3.) Average score for all Candidates is: 10,20
+----------------------------------------
+(Ex 4.) Candidates by departments (Highest score first):
+User_2          14   Department: Architecture
+User_1          11   Department: Architecture
+User_6          6    Department: Architecture
+User_8          6    Department: Architecture
+User_3          13   Department: Business Admin
+User_4          11   Department: Cloud Computing
+User_7          7    Department: Cloud Computing
+Graduate_Admin  15   Department: Computer Science
+User_5          13   Department: Engineering
+User_9          6    Department: Engineering
+----------------------------------------
+(Ex 5.) Average for all departments:
+Computer Science   15,00
+Architecture       9,25
+Business Admin     13,00
+Cloud Computing    9,00
+Engineering        9,50
