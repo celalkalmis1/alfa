@@ -1,0 +1,46 @@
+@startuml
+
+title Library Management System - Class Diagram
+
+class Library {
+  - name: str
+  - books: list[Book]
+  - members: list[Member]
+  + add_book(book: Book): void
+  + register_member(member: Member): void
+  + search_book(title: str): Book
+}
+
+class Book {
+  - title: str
+  - author: str
+  - isbn: str
+  - is_available: bool
+  + check_out(): bool
+  + return_book(): void
+}
+
+abstract class User {
+  - name: str
+  - user_id: str
+  + get_details(): str
+}
+
+class Member {
+  - borrowed_books: list[Book]
+  + borrow_book(book: Book): void
+  + return_book(book: Book): void
+}
+
+class Librarian {
+  - employee_id: str
+  + add_book_to_library(library: Library, book: Book): void
+}
+
+User <|-- Member
+User <|-- Librarian
+Library "1" *-- "*" Book : contains >
+Library "1" *-- "*" Member : registers >
+Member "1" o-- "*" Book : borrows >
+
+@enduml
