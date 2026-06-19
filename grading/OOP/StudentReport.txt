@@ -1,0 +1,42 @@
+--- LINQ QUERIES REPORT ---
+Date Generated: 19.06.2026 15:41:05
+
+(Ex 1.) Candidates that can not be enrolled (Score < 10):
+User_1 - 6 - Architecture
+User_7 - 6 - Cloud Computing
+----------------------------------------
+(Ex 2.) Candidates enrolled in Engineering (Score >= 10):
+User_9 - 12 - Engineering
+----------------------------------------
+(Ex 3.) Average score for all Candidates is: 11,50
+----------------------------------------
+(Ex 4.) Candidates by departments (Highest score first):
+User_3          15   Department: Architecture
+User_6          13   Department: Architecture
+User_2          10   Department: Architecture
+User_1          6    Department: Architecture
+User_5          11   Department: Business Admin
+User_4          14   Department: Cloud Computing
+User_8          13   Department: Cloud Computing
+User_7          6    Department: Cloud Computing
+Graduate_Admin  15   Department: Computer Science
+User_9          12   Department: Engineering
+----------------------------------------
+(Ex 5.) Average for all departments:
+Computer Science   15,00
+Architecture       11,00
+Cloud Computing    11,00
+Business Admin     11,00
+Engineering        12,00
+----------------------------------------
+(Ex 6.) Specific Query: Name, Faculty, Age, Grades:
+Name: Graduate_Admin  | Faculty: Computer Science   | Age: 26 | Grade: 15
+Name: User_1          | Faculty: Architecture       | Age: 18 | Grade: 6
+Name: User_2          | Faculty: Architecture       | Age: 28 | Grade: 10
+Name: User_3          | Faculty: Architecture       | Age: 26 | Grade: 15
+Name: User_4          | Faculty: Cloud Computing    | Age: 26 | Grade: 14
+Name: User_5          | Faculty: Business Admin     | Age: 23 | Grade: 11
+Name: User_6          | Faculty: Architecture       | Age: 26 | Grade: 13
+Name: User_7          | Faculty: Cloud Computing    | Age: 18 | Grade: 6
+Name: User_8          | Faculty: Cloud Computing    | Age: 19 | Grade: 13
+Name: User_9          | Faculty: Engineering        | Age: 20 | Grade: 12
