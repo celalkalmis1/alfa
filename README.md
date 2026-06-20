@@ -1,6 +1,12 @@
 # "alfa"
 
-> A personal academic repository containing coursework, exercises, and projects for computer science courses.
+> A personal academic repository containing coursework, exercises, and projects completed during the **Erasmus+ exchange program** at **PANS Jarosław, Poland**.
+
+---
+
+## 🎓 About
+
+This repository contains all coursework, exercises, and projects developed during my **Erasmus+ exchange** at **PANS Jarosław** (Państwowa Akademia Nauk Stosowanych w Jarosławiu), located in **Jarosław, Poland**. All code was written and organized as part of the university courses attended throughout the exchange program.
 
 ---
 
@@ -67,5 +73,3 @@ Files related to exams, grading criteria, and assessment submissions.
 🔗 [github.com/celalkalmis1](https://github.com/celalkalmis1)
 
 ---
-
-
